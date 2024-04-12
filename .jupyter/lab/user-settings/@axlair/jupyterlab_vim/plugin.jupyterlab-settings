@@ -1,0 +1,57 @@
+{
+    // Notebook Vim
+    // @axlair/jupyterlab_vim:plugin
+    // Notebook Vim Settings
+    // *****************************
+
+    // Enabled
+    // Enable/disable vim extension (may require a page refresh)
+    "enabled": true,
+
+    // Extra Vim Keybindings
+    // [missing schema description]
+    "extraKeybindings": [
+        {
+            "command": "<F3>",
+            "keys": ":s/^/#/g",
+            "mapfn": "noremap",
+            "enabled": true,
+            "context": "normal"
+        },
+        {
+            "command": "<F3>",
+            "keys": ":%s/^/#/g",
+            "context": "visual",
+            "enabled": true,
+            "mapfn": "noremap"
+        },
+        {
+            "command": "<F4>",
+            "keys": ":s/^#*//g",
+            "enabled": true,
+            "mapfn": "noremap",
+            "context": "normal"
+        },
+        {
+            "command": "<F4>",
+            "keys": ":%s/^#*//g",
+            "context": "visual",
+            "enabled": true,
+            "mapfn": "noremap"
+        },
+        {
+            "command": "lk",
+            "keys": "lk",
+            "context": "insert",
+            "enabled": true,
+            "mapfn": "map"
+        },
+        {
+            "command": "Shift -",
+            "keys": "_",
+            "context": "insert",
+            "enabled": true,
+            "mapfn": "noremap"
+        }
+    ]
+}
