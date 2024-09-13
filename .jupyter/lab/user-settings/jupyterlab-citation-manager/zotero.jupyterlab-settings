@@ -1,0 +1,10 @@
+{
+    // Citation Manager: Zotero
+    // jupyterlab-citation-manager:zotero
+    // Zotero Connector settings.
+    // **********************************
+
+    // Zotero API key
+    // Required: Zotero API key that you need to generate after logging in on www.zotero.org. It looks like this: P9NiFoyLeZu2bZNvvuQPDWsd
+    "key": "bjNbdKGShWV9R7ZHXDENJ7AN"
+}
