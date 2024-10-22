@@ -13,28 +13,28 @@
     "extraKeybindings": [
         {
             "command": "<F3>",
-            "keys": ":s/^/#/g",
+            "keys": ":s/^/#/g<CR>",
             "mapfn": "noremap",
             "enabled": true,
             "context": "normal"
         },
         {
             "command": "<F3>",
-            "keys": ":%s/^/#/g",
+            "keys": ":s/^/#/g<CR>",
             "context": "visual",
             "enabled": true,
             "mapfn": "noremap"
         },
         {
             "command": "<F4>",
-            "keys": ":s/^#*//g",
+            "keys": ":s/^#*//g<CR>",
             "enabled": true,
             "mapfn": "noremap",
             "context": "normal"
         },
         {
             "command": "<F4>",
-            "keys": ":%s/^#*//g",
+            "keys": ":s/^#*//gi<CR>",
             "context": "visual",
             "enabled": true,
             "mapfn": "noremap"

@@ -1,5 +1,0 @@
-# In _config.yml
-sphinx:
-  config:
-    bibtex_reference_style: author_year
-    bibtex_bibfiles: "citations.bib"
